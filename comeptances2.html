@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="competances2.css">
+  <title>Mon Portfolio</title>
+</head>
+<body>
+  <a id="top"></a>
+
+  <header>
+    <div class="logo">
+      <img src="images/anas.jpeg" alt="Votre Tête" class="rounded-image">
+      <div class="logo-text">
+        <span class="name">Louraibi Anas</span>
+      </div>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#sécurité">🔐 Sécurité</a></li>
+        <li><a href="#réseaux">🌐 Réseaux</a></li>
+        <li><a href="#programmation">💻 Programmation</a></li>
+        <li><a href="#télécommunications">📡 Télécommunications</a></li>
+        <li><a href="#téléphonie">📱 Téléphonie</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="a-propos" class="flex-container propos-moi">
+    <div class="texte">
+      <h1>Bienvenue 👋</h1>
+      <h2>Vous êtes dans l'onglet compétences ! Choisissez une matière dans la liste pour voir les compétences qui vont avec.</h2>
+      <a href="index.html#competences" class="back-button">⬅️ Retour à l'accueil</a>
+    </div>
+    <div class="image-droite">
+      <img src="images/bonhomme_salut.jpg" alt="Bonhomme">
+    </div>
+  </section>
+
+  <section id="choix-matiere" style="text-align: center; margin: 30px 0;">
+    <h2>📚 Choisissez une matière</h2>
+    <p>Cliquez sur une matière pour découvrir les compétences que j'ai acquises dans ce domaine :</p>
+    <ul style="list-style: none; padding: 0; display: flex; justify-content: center; flex-wrap: wrap; gap: 15px;">
+      <li><a href="#sécurité" style="text-decoration: none; color: black;">🔐 Sécurité</a></li>
+      <li><a href="#réseaux" style="text-decoration: none; color: black;">🌐 Réseaux</a></li>
+      <li><a href="#programmation" style="text-decoration: none; color: black;">💻 Programmation</a></li>
+      <li><a href="#télécommunications" style="text-decoration: none; color: black;">📡 Télécommunications</a></li>
+      <li><a href="#téléphonie" style="text-decoration: none; color: black;">📱 Téléphonie</a></li>
+    </ul>
+  </section>
+
+  <section id="competences">
+    
+    <!-- Sécurité -->
+    <div class="subject">
+      <h3 id="sécurité">🔐 SÉCURITÉ 
+        <a href="#top" class="top-button">⬆️</a>
+      </h3>
+      <p style="text-align: center; font-style: italic; margin-bottom: 10px;">
+        Cliquez sur le bouton ⬆️ pour revenir en haut de la page.
+      </p>
+      <div class="competences">
+
+        <div class="competence">
+          <h2 class="competence-name">🔐 Sécurisation des services réseaux</h2>
+          <p>Mettre en place des services réseau fiables et sécurisés pour garantir l’intégrité des échanges.</p>
+          <p>✅ Authentification forte (TLS, Kerberos, SASL)</p>
+          <p>✅ Gestion des utilisateurs avec LDAP</p>
+          <p>✅ Supervision des équipements via SNMPv3</p>
+          <img src="service_reseau.png" alt="Sécurité Réseaux">
+          <div class="progress-bar">
+            <div class="progress" style="width: 70%;">70%</div>
+          </div>
+        </div>
+      
+        <div class="competence">
+          <h2 class="competence-name">🛡️ Protection contre les attaques réseaux</h2>
+          <p>Déployer des solutions pour renforcer la sécurité face aux principales attaques réseau.</p>
+          <p>🚫 Défense contre SYN Flood, DNS Spoofing, ARP Spoofing</p>
+          <p>🔐 Sécurisation des accès avec Port Knocking & SPA</p>
+          <p>🔍 Analyse des attaques MITM</p>
+          <img src="comp/syn.jpg" alt="Protection Réseaux">
+          <div class="progress-bar">
+            <div class="progress" style="width: 80%;">80%</div>
+          </div>
+        </div>
+      
+        <div class="competence">
+          <h2 class="competence-name">🕵️ Pentest (Test d'intrusion)</h2>
+          <p>Évaluer la sécurité des systèmes en simulant des scénarios d’attaque.</p>
+          <p>🔎 Scan et analyse avec Nmap, WinPEAS, LinPEAS</p>
+          <p>🛠️ Exploitation avec Metasploit, Burp Suite</p>
+          <p>📝 Rapport d’audit</p>
+          <img src="comp/pentest.jpg" alt="Pentest">
+          <div class="progress-bar">
+            <div class="progress" style="width: 80%;">80%</div>
+          </div>
+        </div>
+      
+        <div class="competence">
+          <h2 class="competence-name">🔥 Configuration Firewall</h2>
+          <p>Configurer des pare-feux pour contrôler le trafic et protéger les infrastructures.</p>
+          <p>✅ Règles de filtrage, routage, NAT</p>
+          <p>✅ Authentification, VPN IPSEC</p>
+          <p>✅ Tests de sécurité</p>
+          <img src="comp/firewall.jpg" alt="Configuration Firewall">
+          <div class="progress-bar">
+            <div class="progress" style="width: 65%;">65%</div>
+          </div>
+        </div>
+      
+      </div>
+      
+    </div>
+    
+
+    <!-- Réseaux -->
+    <div class="subject">
+      <h3 id="réseaux">📡 RÉSEAUX
+        <a href="#top" class="top-button">⬆️</a>
+      </h3>
+      <p style="text-align: center; font-style: italic; margin-bottom: 10px;">
+        Cliquez sur le bouton ⬆️ pour revenir en haut de la page.
+      </p>
+<div class="competences">
+
+  <!-- Adressage Réseaux -->
+  <div class="competence">
+    
+    <h2 class="competence-name">🗂️ Adressage Réseaux</h2>
+    <p>L'adressage réseau sert à donner une adresse unique à chaque appareil, pour qu'ils puissent communiquer entre eux sur le réseau.</p>
+    <p>Création d'un plan d'adressage avec Cisco.</p>
+    <img src="comp/cisco.jpg" alt="Adressage Réseaux">
+    <div class="progress-bar">
+      <div class="progress" style="width: 95%;">95%</div>
+    </div>
+    
+  </div>
+
+  <!-- Routage Avancé -->
+  <div class="competence">
+    
+    <h2 class="competence-name">🔀 Routage avancé (OSPF & BGP)</h2>
+    <p>Le routage permet aux données de circuler entre différents réseaux en choisissant le meilleur chemin.</p>
+    <p>✅ Routage OSPF : choix automatique du chemin le plus rapide.</p>
+    <p>✅ Routage BGP : connexion de différents réseaux indépendants via des systèmes autonomes.</p>
+    <img src="comp/ospf.png" alt="Routage Avancé">
+    <div class="progress-bar">
+      <div class="progress" style="width: 80%;">80%</div>
+    </div>
+  </div>
+
+  <!-- VLAN & Trunking -->
+  <div class="competence">
+    
+      <h2 class="competence-name">🌐 VLAN & Trunking</h2>
+      <p>Un VLAN (Virtual LAN) permet de diviser un réseau en plusieurs réseaux logiques pour mieux organiser et sécuriser les communications.</p>
+      <p>Configuration de VLAN pour segmenter le réseau et mise en place de trunks pour les relier.</p>
+      <p>🔗 Un <b>Trunk</b> est un lien physique configuré pour transporter plusieurs VLANs simultanément.</p>
+      <img src="comp/vlan.png" alt="VLAN & Trunking">
+      <div class="progress-bar">
+        <div class="progress" style="width: 85%;">85%</div>
+      </div>
+    </div>
+
+    <!-- Windows Server -->
+    <div class="competence">
+      
+      <h2 class="competence-name">🖥️ Administration Windows Server</h2>
+      <p>Windows Server est un système d’exploitation utilisé pour gérer les réseaux d'entreprise, les utilisateurs et les ressources.</p>
+      <p>✅ Installation, configuration et administration de serveurs sous Windows Server.</p>
+      <p>✅ Mise en place d’Active Directory pour la gestion des utilisateurs et ordinateurs.</p>
+      <p>✅ Configuration des rôles réseau tels que DNS, DHCP, GPO.</p>
+      <p>✅ Gestion de la sécurité des accès.</p>
+      <img src="comp/Windows-Server.png" alt="Windows Server">
+      <div class="progress-bar">
+        <div class="progress" style="width: 80%;">80%</div>
+      </div>
+    </div>
+
+    <!-- Virtualisation & Cloud -->
+    <div class="competence">
+      
+      <h2 class="competence-name">☁️ Virtualisation, Conteneurisation & Cloud</h2>
+      <p>Créer plusieurs machines ou services sur un même ordinateur avec la virtualisation et conteneurisation. Le cloud permet d'accéder à des ressources distantes.</p>
+      <p>✅ Déploiement de VM avec HyperV, VMware, QEMU.</p>
+      <p>✅ Conteneurisation avec Docker.</p>
+      <p>✅ TP : déploiement complet d’infrastructure (RDS, Ansible...)</p>
+      <img src="comp/cloud.jpg" alt="Virtualisation & Cloud">
+      <div class="progress-bar">
+        <div class="progress" style="width: 70%;">70%</div>
+      </div>
+    </div>
+
+    <!-- HAProxy -->
+    <div class="competence">
+      <h2 class="competence-name">⚙️ Reverse Proxy & Load Balancing</h2>
+      <p>Configurer un reverse proxy pour optimiser la répartition du trafic et sécuriser les accès aux services.</p>
+      <p>✅ Mise en place de HAProxy pour équilibrage de charge.</p>
+      <p>✅ Implémentation du reverse proxy avec SSL offloading.</p>
+      <p>✅ Surveillance des serveurs et sécurité.</p>
+      <img src="comp/proxy.png" alt="HAProxy">
+      <div class="progress-bar">
+        <div class="progress" style="width: 80%;">75%</div>
+      </div>
+    </div>
+
+  </div>
+
+    </div>
+    
+
+    <!-- Programmation -->
+    <div class="subject">
+      <h3 id="programmation">💻 PROGRAMMATION
+        <a href="#top" class="top-button">⬆️</a>
+      </h3>
+      <p style="text-align: center; font-style: italic; margin-bottom: 10px;">
+        Cliquez sur le bouton ⬆️ pour revenir en haut de la page.
+      </p>
+      <div class="competences">
+    
+        <!-- PHP / MySQL -->
+        <div class="competence">
+          
+          <h2 class="competence-name">🐘 PHP / MySQL</h2>
+          <p>Développement de sites dynamiques avec <b>PHP</b> et gestion des bases de données <b>MySQL</b>.</p>
+          <img src="comp/php.png" alt="PHP MySQL">
+          <div class="progress-bar">
+            
+            <div class="progress" style="width: 60%;">60%</div>
+          </div>
+        </div>
+    
+        <!-- Java -->
+        <div class="competence">
+          <h2 class="competence-name">☕ Java</h2>
+          <p>Programmation orientée objet avec <b>Java</b>.</p>
+          <img src="comp/Java-Logo.jpg" alt="Java">
+          <div class="progress-bar">
+            <div class="progress" style="width: 70%;">70%</div>
+          </div>
+        </div>
+    
+        <!-- Python -->
+        <div class="competence">
+          <h2 class="competence-name">🐍 Python</h2>
+          <p>Création de scripts d'automatisation et traitement de données avec <b>Python</b>.</p>
+          <img src="comp/python.jpg" alt="Python">
+          <div class="progress-bar">
+            <div class="progress" style="width: 65%;">65%</div>
+          </div>
+        </div>
+    
+        <!-- HTML / CSS -->
+        <div class="competence">
+          
+          <h2 class="competence-name">🌐 HTML / CSS</h2>
+          <p>Conception d’interfaces web responsives avec <b>HTML</b> et <b>CSS</b>.</p>
+          <p>Utilisé notamment pour la création de ce portfolio.</p>
+          <img src="comp/html.png" alt="HTML CSS">
+          <div class="progress-bar">
+            <div class="progress" style="width: 90%;">90%</div>
+          </div>
+        </div>
+    
+        <!-- Node.js -->
+        <div class="competence">
+          
+          <h2 class="competence-name">🟢 Node.js</h2>
+          <p>Développement back-end avec <b>Node.js</b>, un environnement d'exécution JavaScript côté serveur.</p>
+          <img src="comp/node.png" alt="Node.js">
+          <div class="progress-bar">
+            <div class="progress" style="width: 60%;">60%</div>
+          </div>
+        </div>
+    
+        <!-- PowerShell -->
+        <div class="competence">
+          
+          <h2 class="competence-name">⚙️ PowerShell</h2>
+          <p>Automatisation de tâches système et gestion réseau sous Windows avec <b>PowerShell</b>.</p>
+          <img src="comp/powershell.png" alt="PowerShell">
+          <div class="progress-bar">
+            <div class="progress" style="width: 85%;">85%</div>
+          </div>
+        </div>
+    
+      </div>
+    </div>
+    
+    
+
+    <!-- Télécommunications -->
+    <div class="subject">
+      <h3 id="télécommunications">📡 TÉLÉCOMMUNICATIONS <a href="#top" class="top-button">⬆️</a></h3>
+      
+      <p style="text-align: center; font-style: italic; margin-bottom: 10px;">
+        Cliquez sur le bouton ⬆️ pour revenir en haut de la page.
+      </p>
+      <div class="competences">
+        
+    
+        <!-- Transmission par lignes cuivre -->
+        <div class="competence">
+          
+          <h2 class="competence-name">🔌 Transmission par lignes cuivre</h2>
+          <p>Assurer la transmission de signaux sur des câbles cuivre (paires torsadées, coaxiaux).</p>
+          <p>📊 Analyse de l’impédance, pertes, réflexion.</p>
+          <p>🛠 TP : mesures sur différents câbles.</p>
+          <img src="comp/cuivre.jpg" alt="Lignes Cuivre">
+          <div class="progress-bar">
+            <div class="progress" style="width: 65%;">65%</div>
+          </div>
+        </div>
+    
+        <!-- Transmission hertzienne -->
+        <div class="competence">
+          
+          <h2 class="competence-name">📶 Transmission hertzienne & antennes</h2>
+          <p>Utilisation des ondes électromagnétiques pour les communications sans fil.</p>
+          <p>📡 Étude des antennes, rayonnement, atténuation.</p>
+          <p>🛠 TP : caractérisation des antennes.</p>
+          <img src="comp/hertz.jpg" alt="Transmission Hertzienne">
+          <div class="progress-bar">
+            <div class="progress" style="width: 70%;">70%</div>
+          </div>
+        </div>
+    
+        <!-- Fibre optique -->
+        <div class="competence">
+          
+          <h2 class="competence-name">💡 Transmission par fibre optique</h2>
+          <p>Utilisation des fibres optiques pour un transport rapide et sécurisé des données.</p>
+          <p>🔍 Étude du guidage de la lumière, pertes.</p>
+          <p>🛠 TP : test de connecteurs optiques.</p>
+          <img src="comp/fiber.jpg" alt="Fibre Optique">
+          <div class="progress-bar">
+            <div class="progress" style="width: 70%;">70%</div>
+          </div>
+        </div>
+    
+        <!-- Codage des signaux -->
+        <div class="competence">
+          
+          <h2 class="competence-name">🔤 Codage des signaux</h2>
+          <p>Traduction des données en signaux adaptés à la transmission.</p>
+          <p>📑 Techniques : NRZ, Manchester.</p>
+          <p>🛠 TP : analyse des signaux codés.</p>
+          <img src="comp/NRZ.jpg" alt="Codage des Signaux">
+          <div class="progress-bar">
+            <div class="progress" style="width: 65%;">65%</div>
+          </div>
+        </div>
+    
+        <!-- MATLAB + Adalm Pluto -->
+        <div class="competence">
+          
+          <h2 class="competence-name">📡 MATLAB & Adalm Pluto</h2>
+          <p>Utilisation de MATLAB pour générer et analyser des signaux via le module SDR Adalm Pluto.</p>
+          <p>📶 Transmission/réception en temps réel.</p>
+          <p>📊 Analyse du spectre et modulation (QPSK, OFDM...)</p>
+          <img src="comp/matlab.jpg" alt="MATLAB & Adalm Pluto">
+          <div class="progress-bar">
+            <div class="progress" style="width: 65%;">65%</div>
+          </div>
+        </div>
+    
+      </div>
+    </div>
+    
+    
+    <!-- Téléphonie -->
+        <!-- Téléphonie -->
+    <div class="subject">
+      <h3 id="téléphonie">📞 TÉLÉPHONIE <a href="#top" class="top-button">⬆️</a> </h3>
+      <p style="text-align: center; font-style: italic; margin-bottom: 10px;">
+        Cliquez sur le bouton ⬆️ pour revenir en haut de la page.
+      </p>
+      <div class="competences">
+
+        <!-- Configuration Call Server -->
+        <div class="competence">
+          
+          <h2 class="competence-name">📠 Configuration Call Server</h2>
+          <p>Permettre aux téléphones IP de communiquer via un serveur dédié.</p>
+          <p>⚙️ Configuration des comptes SIP et des lignes.</p>
+          <p>📑 Mise en place des plans de numérotation.</p>
+          <p>🛠 TP : déploiement et test d’une infrastructure téléphonique locale.</p>
+          <img src="comp/call.jpg" alt="Call Server">
+          <div class="progress-bar">
+            <div class="progress" style="width: 80%;">80%</div>
+          </div>
+        </div>
+
+        <!-- Réseaux cellulaires -->
+        <div class="competence">
+          
+          <h2 class="competence-name">📶 Réseaux cellulaires & mobilité</h2>
+          <p>Assurer la communication mobile.</p>
+          <p>🏗️ Étude de l'architecture 4G (eNB, EPC, UE).</p>
+          <p>⚙️ Configuration des eNodeB, EPC, UE en TP.</p>
+          <p>🔄 Observation du handover (changement de cellule).</p>
+          <p>🌍 Analyse du roaming et de la mobilité.</p>
+          <img src="comp/reseaux.png" alt="Réseaux Cellulaires">
+          <div class="progress-bar">
+            <div class="progress" style="width: 70%;">70%</div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    
+
+  </section>
+
+</body>
+</html>
